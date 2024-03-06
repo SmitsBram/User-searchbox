@@ -1,5 +1,5 @@
 <div>
-    <input wire:model="search" type="text" placeholder="Search Users..." />
+    <input wire:model.live="search" type="text" placeholder="Search Users..." />
 
     <table>
         <thead>
